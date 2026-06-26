@@ -21,7 +21,7 @@ export const rooms: Room[] = [
   {
     slug: "double-room",
     name: "Double Room",
-    price: "Rs. 2,400",
+    price: "Rs. 2,500",
     occupancy: "double occupancy",
     shortDescription: "A serene and comfortable space designed for quiet reflection and rest.",
     fullDescription: "1 Double Rooms at Rs. 2350/night for double occupancy, inclusive of Breakfast. Both rooms have attached bathroom with geysers.",
@@ -41,7 +41,7 @@ export const rooms: Room[] = [
   {
     slug: "twin-bed-room",
     name: "Twin Bed Room",
-    price: "Rs. 2,400",
+    price: "Rs. 2,500",
     occupancy: "double occupancy",
     shortDescription: "Warm wooden accents and natural light create an inviting atmosphere.",
     fullDescription: "1 Twin Bed Rooms at Rs. 2350/night for double occupancy, inclusive of Breakfast. Both rooms have attached bathroom with geysers.",
@@ -81,7 +81,7 @@ export const rooms: Room[] = [
   {
     slug: "dormitory",
     name: "Dormitory",
-    price: "Rs. 750",
+    price: "Rs. 3,200",
     occupancy: "per bed",
     shortDescription: "Ideal for backpackers or single travelers seeking a budget-friendly stay.",
     fullDescription: "We have 1 Dorm: 4 Single Beds Rooms – ideal for backpackers or a single traveler Both dorms have attached bathrooms with geysers. This is being offered at Rs. 750/bed inclusive of Breakfast.",
