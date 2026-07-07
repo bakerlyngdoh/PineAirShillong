@@ -79,25 +79,20 @@ export const rooms: Room[] = [
     }
   },
   {
-    slug: "dormitory",
-    name: "Dormitory",
+    slug: "multi-bedded-room",
+    name: "Multi-Bedded Room",
     price: "Rs. 3,200",
-    occupancy: "per bed",
-    shortDescription: "Ideal for backpackers or single travelers seeking a budget-friendly stay.",
-    fullDescription: "We have 1 Dorm: 4 Single Beds Rooms – ideal for backpackers or a single traveler Both dorms have attached bathrooms with geysers. This is being offered at Rs. 750/bed inclusive of Breakfast.",
+    occupancy: "up to 4 people",
+    shortDescription: "Ideal for families or groups seeking a comfortable, shared space.",
+    fullDescription: "One Multi-Bedded Room at Rs. 3,200/night for up to 4 people, inclusive of Breakfast. Features 4 single beds and an attached bathroom with geyser.",
     image: "/images/four-bedded-room.webp",
-    amenities: ["Shared Dorm", "Attached Bathroom", "Geyser", "Breakfast Included"],
+    amenities: ["4 Single Beds", "Attached Bathroom", "Geyser", "Breakfast Included"],
     details: {
-      breakfast: "We offer breakfast from 7:30 to 9:00 am as complimentary with your bed charge. Options include Continental, Puri Bhaaji, or Alu Paratha. (Continental includes – Bread/Toast/Pancakes with butter & jam, Cornflake/Oats, Eggs, tea).",
+      breakfast: "We offer breakfast from 7:30 to 9:00 am as complimentary with your room charge. Options include Continental, Puri Bhaaji, or Alu Paratha. (Continental includes – Bread/Toast/Pancakes with butter & jam, Cornflake/Oats, Eggs, tea).",
       meals: "Order at least 4 hours in advance. We serve simple home cooked food. Non-veg: Rs. 350/person, Veg: Rs. 250/person.",
       cleaning: "If you need your room to be cleaned please inform the housekeeping assistant before you leave the room.",
       extraCharges: [
-        "For an extra mattress, Rs.300 will be charged."
-      ],
-      understanding: [
-        "If there are other guests who booked the same dorm on the same dates, you will have to share the dorm with them.",
-        "If you want the dorm exclusively (just for you) then you have to pay for the extra beds.",
-        "The dorm has an attached toilet and bathroom. This will be shared if other guests are also booked in the same dorm."
+        "For an extra mattress, Rs. 300 will be charged."
       ]
     }
   }
