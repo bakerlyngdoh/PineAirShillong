@@ -77,7 +77,8 @@ const Footer = () => {
                 { label: 'About Us', href: '#about' },
                 { label: 'Our Rooms', href: '#rooms' },
                 { label: 'The Lounge', href: '#lounge' },
-
+                { label: 'House Rules', href: '/house-rules' },
+                { label: 'Guest Info', href: '/guest-info' },
               ].map((item) => (
                 <Link
                   key={item.label}
@@ -131,8 +132,8 @@ const Footer = () => {
                 </div>
                 <div className="text-sm">
                   <p className="text-white font-medium mb-1">Email Us</p>
-                  <a href="mailto:contactpineair@gmail.com" className="hover:text-pine-accent transition-colors lowercase">
-                    contactpineair@gmail.com
+                  <a href="mailto:pineairshillong@gmail.com " className="hover:text-pine-accent transition-colors lowercase">
+                    pineairshillong@gmail.com
                   </a>
                 </div>
               </li>

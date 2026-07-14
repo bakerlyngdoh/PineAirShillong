@@ -205,7 +205,7 @@ export default async function RoomDetailsPage({ params }: PageProps) {
                 )}
               </div>
 
-              <div className="pt-8">
+              <div className="pt-8 space-y-4">
                 <a
                   href={`https://wa.me/918794338802?text=${encodeURIComponent(
                     `Hello! I'm interested in booking the ${room.name} at Pine Air Shillong.\n\nRoom Details:\n- Price: ${room.price}\n- Occupancy: ${room.occupancy}\n\nPlease let me know the availability.`
@@ -216,6 +216,13 @@ export default async function RoomDetailsPage({ params }: PageProps) {
                 >
                   Book Now
                 </a>
+                <p className="text-center text-xs text-pine-gray font-light">
+                  By booking, you agree to observe our{" "}
+                  <Link href="/house-rules" className="underline hover:text-pine-accent transition-colors font-medium">
+                    House Rules
+                  </Link>
+                  .
+                </p>
               </div>
             </div>
           </div>

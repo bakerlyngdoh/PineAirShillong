@@ -46,7 +46,7 @@ export const Location: React.FC = () => {
               </div>
               <p className="text-pine-gray leading-relaxed font-light pl-14">
                 Check-in: 12:00 PM<br />
-                Check-out: 11:00 AM
+                Check-out: 12:00 AM
               </p>
             </div> */}
           </div>

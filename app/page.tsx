@@ -6,6 +6,7 @@ import { Rooms } from "@/components/sections/Rooms";
 import { Lounge } from "@/components/sections/Lounge";
 import { Testimonials } from "@/components/sections/Testimonials";
 import { Location } from "@/components/sections/Location";
+import { FAQ } from "@/components/sections/FAQ";
 
 export default function Home() {
   return (
@@ -19,6 +20,7 @@ export default function Home() {
         <Rooms />
         <Lounge />
         <Testimonials />
+        <FAQ />
         <Location />
       </main>
     </div>

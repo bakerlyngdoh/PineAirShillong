@@ -43,6 +43,16 @@ export const Rooms: React.FC = () => {
             </Link>
           ))}
         </div>
+
+        <div className="mt-16 text-center">
+          <Link
+            href="/house-rules"
+            className="inline-flex items-center justify-center gap-3 px-8 py-4 bg-white border border-pine-accent/20 text-pine-charcoal hover:bg-pine-accent hover:text-white hover:border-pine-accent rounded-2xl transition-all duration-300 text-sm tracking-widest uppercase font-medium shadow-md hover:shadow-lg group"
+          >
+            <span>Read Our House Rules</span>
+            <ArrowRight size={16} className="transition-transform group-hover:translate-x-1" />
+          </Link>
+        </div>
       </div>
     </section>
   );
