@@ -6,9 +6,14 @@ import Image from "next/image";
 interface RoomImageSliderProps {
   images: string[];
   alt: string;
+  intervalMs?: number;
 }
 
-export const RoomImageSlider: React.FC<RoomImageSliderProps> = ({ images: initialImages, alt }) => {
+export const RoomImageSlider: React.FC<RoomImageSliderProps> = ({
+  images: initialImages,
+  alt,
+  intervalMs = 4000,
+}) => {
   // Duplicate array if exactly 2 images to ensure smooth one-way directional sliding
   const images = initialImages.length === 2 ? [...initialImages, ...initialImages] : initialImages;
 
@@ -19,10 +24,10 @@ export const RoomImageSlider: React.FC<RoomImageSliderProps> = ({ images: initia
 
     const interval = setInterval(() => {
       setCurrentIndex((prevIndex) => (prevIndex + 1) % images.length);
-    }, 4000);
+    }, intervalMs);
 
     return () => clearInterval(interval);
-  }, [images.length]);
+  }, [images.length, intervalMs]);
 
   return (
     <div className="relative aspect-[4/3] overflow-hidden group/slider">
