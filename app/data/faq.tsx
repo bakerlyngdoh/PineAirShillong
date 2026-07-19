@@ -168,7 +168,7 @@ export const faqs = [
 
         <div className="relative w-full h-64 md:h-80 rounded-xl overflow-hidden my-4 shadow-sm border border-pine-primary/5">
           <img
-            src="/images/dogs.png"
+            src="/images/faq/dogs.png"
             alt="Witty, Lexi, and Phup-Phup - Our resident dogs"
             className="w-full h-full object-cover"
           />

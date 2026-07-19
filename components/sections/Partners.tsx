@@ -4,17 +4,17 @@ import Image from 'next/image';
 const partners = [
   {
     name: "Explore Meghalaya",
-    logo: "/images/PartnerLogos/Explore_Meghalaya.jpeg",
+    logo: "/images/partners/explore-meghalaya.jpeg",
     url: "#", // Add the actual link here (e.g., "https://exploremeghalaya.com")
   },
   {
     name: "Spring Valley",
-    logo: "/images/PartnerLogos/Spring_Valley.jpeg",
+    logo: "/images/partners/spring-valley.jpeg",
     url: "#", // Add the actual link here
   },
   {
     name: "Tris Logo",
-    logo: "/images/PartnerLogos/Tris_Logo.png",
+    logo: "/images/partners/tris-logo.png",
     url: "#", // Add the actual link here
   }
 ];

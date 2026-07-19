@@ -19,7 +19,7 @@ export const Lounge: React.FC = () => {
           <div className="order-1 md:order-2 relative">
             <div className="aspect-square relative rounded-2xl overflow-hidden">
               <Image
-                src="/images/lounge.jpg"
+                src="/images/lounge/lounge.jpg"
                 alt="Pine Air Guest Lounge"
                 fill
                 className="object-cover"

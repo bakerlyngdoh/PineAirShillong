@@ -26,8 +26,8 @@ export const rooms: Room[] = [
     occupancy: "double occupancy",
     shortDescription: "A serene and comfortable space designed for quiet reflection and rest.",
     fullDescription: "1 Double Rooms at ₹ 2350/night for double occupancy, inclusive of Breakfast. Both rooms have attached bathroom with geysers.",
-    image: "/images/newImg/DOUBLE_ROOM.JPEG",
-    images: ["/images/newImg/DOUBLE_ROOM.JPEG", "/images/newImg/DOUBLE_ROOM_BATHROOM.JPEG", "/images/newImg/DOUBLE__ROOM.JPEG"],
+    image: "/images/rooms/double-room/room-1.jpeg",
+    images: ["/images/rooms/double-room/room-1.jpeg", "/images/rooms/double-room/bathroom.jpeg", "/images/rooms/double-room/room-2.jpeg"],
     amenities: ["Attached Bathroom", "Geyser", "Breakfast Included", "Wi-Fi"],
     details: {
       breakfast: "We offer breakfast from 7:30 to 9:00 am as complimentary with your bed charge. Options include Continental, Puri Bhaaji, or Alu Paratha. (Continental includes – Bread/Toast/Pancakes with butter & jam, Cornflake/Oats, Eggs, tea).",
@@ -47,8 +47,8 @@ export const rooms: Room[] = [
     occupancy: "double occupancy",
     shortDescription: "Warm wooden accents and natural light create an inviting atmosphere.",
     fullDescription: "1 Twin Bed Rooms at ₹2350/night for double occupancy, inclusive of Breakfast. Both rooms have attached bathroom with geysers.",
-    image: "/images/newImg/twin-bed-room.webp",
-    images: ["/images/twin-bed-room.webp"],
+    image: "/images/rooms/twin-bed-room/room-1.webp",
+    images: ["/images/rooms/twin-bed-room/room-1.webp"],
     amenities: ["Attached Bathroom", "Geyser", "Breakfast Included", "Wi-Fi"],
     details: {
       breakfast: "We offer breakfast from 7:30 to 9:00 am as complimentary with your bed charge. Options include Continental, Puri Bhaaji, or Alu Paratha. (Continental includes – Bread/Toast/Pancakes with butter & jam, Cornflake/Oats, Eggs, tea).",
@@ -67,8 +67,8 @@ export const rooms: Room[] = [
     occupancy: "up to 4 people",
     shortDescription: "Our premium offering, blending traditional comfort with intentional design.",
     fullDescription: "One Family room Rs 3200/night (inclusive of breakfast). Features a Queen size bed and 2 single beds.",
-    image: "/images/family-room.webp",
-    images: ["/images/family-room.webp"],
+    image: "/images/rooms/family-room/room-1.webp",
+    images: ["/images/rooms/family-room/room-1.webp"],
     amenities: ["Queen Size Bed", "2 Single Beds", "Attached Bathroom", "Geyser", "Breakfast Included"],
     details: {
       breakfast: "We offer breakfast from 7:30 to 9:00 am as complimentary with your bed charge. Options include Continental, Puri Bhaaji, or Alu Paratha. (Continental includes – Bread/Toast/Pancakes with butter & jam, Cornflake/Oats, Eggs, tea).",
@@ -89,8 +89,8 @@ export const rooms: Room[] = [
     occupancy: "up to 4 people",
     shortDescription: "Ideal for families or groups seeking a comfortable, shared space.",
     fullDescription: "One Multi-Bedded Room at ₹3,200/night for up to 4 people, inclusive of Breakfast. Features 4 single beds and an attached bathroom with geyser.",
-    image: "/images/newImg/DORM.JPEG",
-    images: ["/images/newImg/DORM.JPEG"],
+    image: "/images/rooms/multi-bedded-room/dorm-1.jpeg",
+    images: ["/images/rooms/multi-bedded-room/dorm-1.jpeg"],
     amenities: ["4 Single Beds", "Attached Bathroom", "Geyser", "Breakfast Included"],
     details: {
       breakfast: "We offer breakfast from 7:30 to 9:00 am as complimentary with your room charge. Options include Continental, Puri Bhaaji, or Alu Paratha. (Continental includes – Bread/Toast/Pancakes with butter & jam, Cornflake/Oats, Eggs, tea).",

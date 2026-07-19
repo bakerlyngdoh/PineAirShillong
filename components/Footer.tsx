@@ -74,9 +74,9 @@ const Footer = () => {
             </h4>
             <nav className="flex flex-col space-y-4">
               {[
-                { label: 'About Us', href: '#about' },
-                { label: 'Our Rooms', href: '#rooms' },
-                { label: 'The Lounge', href: '#lounge' },
+                { label: 'About Us', href: '/#about' },
+                { label: 'Our Rooms', href: '/#rooms' },
+                { label: 'The Lounge', href: '/#lounge' },
                 { label: 'House Rules', href: '/house-rules' },
                 { label: 'Guest Info', href: '/guest-info' },
               ].map((item) => (

@@ -9,7 +9,7 @@ export const Hero: React.FC = () => {
       {/* Abstract misty background */}
       <div className="absolute inset-0 z-0">
         <Image
-          src="/images/hero.webp"
+          src="/images/hero/hero.webp"
           alt="Misty hills of Shillong"
           fill
           className="object-cover brightness-[0.7]"

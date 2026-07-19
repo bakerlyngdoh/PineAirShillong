@@ -5,11 +5,12 @@ import Image from "next/image";
 import Link from "next/link";
 
 const navItems = [
-  { name: "About", href: "#about", id: "about" },
-  { name: "Rooms", href: "#rooms", id: "rooms" },
-  { name: "Lounge", href: "#lounge", id: "lounge" },
+  { name: "About", href: "/#about", id: "about" },
+  { name: "Rooms", href: "/#rooms", id: "rooms" },
+  { name: "Lounge", href: "/#lounge", id: "lounge" },
   { name: "Guest Info", href: "/guest-info", id: "guest-info" },
-  { name: "Contact", href: "#contact", id: "contact" },
+  { name: "FAQ", href: "/#faq", id: "faq" },
+  { name: "Contact", href: "/#contact", id: "contact" },
 ];
 
 export const Navbar: React.FC = () => {
