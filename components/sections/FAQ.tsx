@@ -23,8 +23,8 @@ export const FAQ: React.FC = () => {
           {faqs.map((faq, index) => {
             const isOpen = openIndex === index;
             return (
-              <div 
-                key={index} 
+              <div
+                key={index}
                 className={`border border-pine-primary/10 rounded-2xl overflow-hidden transition-all duration-300 ${isOpen ? "bg-white shadow-md" : "bg-white/50 hover:bg-white"}`}
               >
                 <button
@@ -37,7 +37,7 @@ export const FAQ: React.FC = () => {
                     <ChevronDown size={18} />
                   </div>
                 </button>
-                <div 
+                <div
                   className={`px-6 overflow-hidden transition-all duration-300 ease-in-out ${isOpen ? "max-h-[1200px] pb-6 opacity-100" : "max-h-0 opacity-0"}`}
                 >
                   <div className="text-pine-gray font-light leading-relaxed">
