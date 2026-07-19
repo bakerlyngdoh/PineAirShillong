@@ -91,7 +91,7 @@ const infos = [
     title: "Nearby ATM",
     icon: CreditCard,
     items: [
-      "There is only one SBI ATM located just ahead of Soul Kitchen Restaurant (walking distance)."
+      "There is only one SBI ATM located just ahead of Gateau – Bakes and More BAKERY (walking distance)"
     ]
   },
   {
@@ -109,10 +109,9 @@ const infos = [
     title: "Booking Cancellation Charge",
     icon: Ban,
     items: [
-      "Full refund if cancellation is made 30 days or more before date of stay.",
-      "75% refund if cancellation is made 20-29 days before.",
-      "50% refund if cancellation is made 7-19 days before.",
-      { text: "No refund if cancellation is made 2-6 days before.", highlight: true }
+      "Full Refund: For cancellations made 30 days or more prior to the check in date.",
+      "50% Refund: For cancellations made between 7 and 29 days prior to the check in date.",
+      { text: "No Refund: For cancellations made within 6 days of the check in date.", highlight: true }
     ]
   }
 ];
@@ -182,17 +181,28 @@ export default function GuestInfoPage() {
                       const isHighlight = typeof item === "object" ? item.highlight : false;
                       const text = typeof item === "object" ? item.text : item;
 
+                      // Match label before colon (e.g. "Full Refund:", "Vegetarian:"), excluding time strings like "8:00 PM"
+                      const colonMatch = text.match(/^([^:]+?)(?<!\d):(.*)$/);
+
                       return (
                         <li
                           key={idx}
-                          className={`text-sm md:text-[15px] font-light leading-relaxed flex items-start ${
-                            isHighlight
-                              ? "text-pine-charcoal font-medium bg-pine-accent/10 p-2.5 rounded-lg border-l-2 border-pine-accent"
-                              : "text-pine-gray"
-                          }`}
+                          className={`text-sm md:text-[15px] font-light leading-relaxed flex items-start ${isHighlight
+                            ? "text-pine-charcoal font-medium bg-pine-accent/10 p-2.5 rounded-lg border-l-2 border-pine-accent"
+                            : "text-pine-gray"
+                            }`}
                         >
                           <span className={`w-1.5 h-1.5 rounded-full mt-2.5 mr-3 shrink-0 ${isHighlight ? "bg-pine-accent" : "bg-pine-accent/40"}`}></span>
-                          <span className="flex-1">{text}</span>
+                          <span className="flex-1">
+                            {colonMatch ? (
+                              <>
+                                <strong className="font-bold text-pine-charcoal">{colonMatch[1]}:</strong>
+                                {colonMatch[2]}
+                              </>
+                            ) : (
+                              text
+                            )}
+                          </span>
                         </li>
                       );
                     })}

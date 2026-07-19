@@ -58,7 +58,7 @@ export default async function RoomDetailsPage({ params }: PageProps) {
           {/* Left Column: Image & Amenities */}
           <div className="space-y-12">
             <div className="relative aspect-[4/3] rounded-2xl overflow-hidden shadow-2xl shadow-pine-primary/10">
-              <RoomImageSlider images={room.images} alt={room.name} />
+              <RoomImageSlider images={room.images} alt={room.name} enableModal={true} />
             </div>
 
             <div className="bg-white p-8 rounded-2xl border border-pine-primary/5 shadow-sm">

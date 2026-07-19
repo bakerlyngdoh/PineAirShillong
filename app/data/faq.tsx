@@ -5,7 +5,7 @@ export const faqs = [
     question: "What time is check-in and check-out?",
     answer: (
       <div className="space-y-4">
-        <h4 className="font-serif text-xl flex items-center gap-2 text-pine-charcoal">🕒 Check-in & Check-out Times</h4>
+        <h4 className="font-serif text-xl flex items-center gap-2 text-pine-charcoal">Check-in & Check-out Times</h4>
         <ul className="list-disc pl-5 space-y-2">
           <li><strong className="text-pine-charcoal font-medium">Check-in:</strong> From 1:00 PM onwards</li>
           <li><strong className="text-pine-charcoal font-medium">Check-out:</strong> Until 12:00 PM (Noon)</li>
@@ -18,7 +18,7 @@ export const faqs = [
     question: "Do you offer complimentary breakfast?",
     answer: (
       <div className="space-y-4">
-        <h4 className="font-serif text-xl flex items-center gap-2 text-pine-charcoal">🍳 Complimentary Breakfast</h4>
+        <h4 className="font-serif text-xl flex items-center gap-2 text-pine-charcoal">Complimentary Breakfast</h4>
         <p>A <strong className="text-pine-charcoal font-medium">complimentary continental breakfast</strong> is included with your stay.</p>
 
         <div className="space-y-2 mt-6">
@@ -40,7 +40,7 @@ export const faqs = [
     question: "Do you provide lunch or dinner?",
     answer: (
       <div className="space-y-4">
-        <h4 className="font-serif text-xl flex items-center gap-2 text-pine-charcoal">🍽️ Home-cooked Meals</h4>
+        <h4 className="font-serif text-xl flex items-center gap-2 text-pine-charcoal">Home-cooked Meals</h4>
         <p>We offer simple, home-cooked meals for lunch and dinner.</p>
         <div className="bg-pine-accent/10 border-l-4 border-pine-accent p-4 rounded-r-md">
           <strong className="text-pine-charcoal">Please place your order at least 4 hours in advance.</strong>
@@ -81,7 +81,7 @@ export const faqs = [
     question: "Do you offer laundry services?",
     answer: (
       <div className="space-y-4">
-        <h4 className="font-serif text-xl flex items-center gap-2 text-pine-charcoal">🧺 Laundry Service</h4>
+        <h4 className="font-serif text-xl flex items-center gap-2 text-pine-charcoal">Laundry Service</h4>
         <p>We offer a convenient <strong className="text-pine-charcoal font-medium">wash, dry, and fold</strong> laundry service.</p>
         <ul className="list-disc pl-5 space-y-1">
           <li><strong className="text-pine-charcoal font-medium">Price:</strong> ₹200 per load</li>
@@ -106,7 +106,7 @@ export const faqs = [
     question: "Is Wi-Fi available?",
     answer: (
       <div className="space-y-4">
-        <h4 className="font-serif text-xl flex items-center gap-2 text-pine-charcoal">📶 Wi-Fi</h4>
+        <h4 className="font-serif text-xl flex items-center gap-2 text-pine-charcoal">Wi-Fi</h4>
         <p>Complimentary <strong className="text-pine-charcoal font-medium">100 Mbps Wi-Fi</strong> is available throughout the property.</p>
       </div>
     )
@@ -115,7 +115,7 @@ export const faqs = [
     question: "Is there a power backup available?",
     answer: (
       <div className="space-y-4">
-        <h4 className="font-serif text-xl flex items-center gap-2 text-pine-charcoal">⚡ Power Backup</h4>
+        <h4 className="font-serif text-xl flex items-center gap-2 text-pine-charcoal">Power Backup</h4>
         <p>To ensure your comfort during occasional power outages, especially in the winter months, Pine Air is equipped with a <strong className="text-pine-charcoal font-medium">heavy-duty backup generator</strong>.</p>
         <div className="bg-pine-accent/10 border-l-4 border-pine-accent p-4 rounded-r-md mt-6">
           <strong className="text-pine-charcoal font-medium">Please note:</strong> The generator is operated whenever required, but it cannot be run continuously throughout the night.
@@ -127,7 +127,7 @@ export const faqs = [
     question: "Is there a café or restaurant on the premises?",
     answer: (
       <div className="space-y-4">
-        <h4 className="font-serif text-xl flex items-center gap-2 text-pine-charcoal">☕ Serendipity Café</h4>
+        <h4 className="font-serif text-xl flex items-center gap-2 text-pine-charcoal">Serendipity Café</h4>
         <p><strong className="text-pine-charcoal font-medium">Serendipity Café</strong> is located within the Pine Air premises and operates as an independent business.</p>
         <p>The café serves a selection of <strong className="text-pine-charcoal font-medium">traditional Khasi snacks</strong>, lunch, and a variety of teas.</p>
 
@@ -144,7 +144,7 @@ export const faqs = [
           <p>For any café-related enquiries, please contact:</p>
           <div className="bg-white border border-pine-primary/10 p-4 rounded-lg mt-2 inline-block shadow-sm">
             <p className="font-medium text-pine-charcoal text-lg">Ms. Darhmingliani (Ming)</p>
-            <p className="flex items-center gap-2 mt-2 text-pine-gray">📞 <strong className="text-pine-charcoal text-lg tracking-wide">87874 41451</strong></p>
+            <p className="flex items-center gap-2 mt-2 text-pine-gray"><strong className="text-pine-charcoal text-lg tracking-wide">87874 41451</strong></p>
           </div>
         </div>
       </div>
@@ -154,8 +154,8 @@ export const faqs = [
     question: "Is there an ATM nearby?",
     answer: (
       <div className="space-y-4">
-        <h4 className="font-serif text-xl flex items-center gap-2 text-pine-charcoal">🏧 Nearby ATM</h4>
-        <p>The nearest <strong className="text-pine-charcoal font-medium">SBI ATM</strong> is located just ahead of <strong className="text-pine-charcoal font-medium">Soul Kitchen Restaurant</strong>, within walking distance from Pine Air.</p>
+        <h4 className="font-serif text-xl flex items-center gap-2 text-pine-charcoal">Nearby ATM</h4>
+        <p>There is only one <strong className="text-pine-charcoal font-medium">SBI ATM</strong> located just ahead of <strong className="text-pine-charcoal font-medium">Gateau – Bakes and More BAKERY</strong> (within walking distance).</p>
       </div>
     )
   },
@@ -163,7 +163,7 @@ export const faqs = [
     question: "Are there any resident pets or dogs on the property?",
     answer: (
       <div className="space-y-4">
-        <h4 className="font-serif text-xl flex items-center gap-2 text-pine-charcoal">🐾 Our Dogs</h4>
+        <h4 className="font-serif text-xl flex items-center gap-2 text-pine-charcoal">Our Dogs</h4>
 
         <div className="relative w-full h-64 md:h-80 rounded-xl overflow-hidden my-4 shadow-sm border border-pine-primary/5">
           <img
@@ -191,7 +191,7 @@ export const faqs = [
     question: "What is your booking cancellation policy?",
     answer: (
       <div className="space-y-4">
-        <h4 className="font-serif text-xl flex items-center gap-2 text-pine-charcoal">❌ Booking Cancellation Policy</h4>
+        <h4 className="font-serif text-xl flex items-center gap-2 text-pine-charcoal">Booking Cancellation Policy</h4>
         <p>Our cancellation policy is as follows:</p>
 
         <div className="overflow-x-auto mt-6 bg-white border border-pine-primary/5 rounded-xl shadow-sm">
@@ -204,20 +204,16 @@ export const faqs = [
             </thead>
             <tbody className="divide-y divide-pine-primary/5 text-pine-gray">
               <tr className="hover:bg-pine-mist/20 transition-colors">
-                <td className="py-4 px-6 font-light">30 days or more</td>
-                <td className="py-4 px-6 text-center font-medium text-pine-charcoal">100%</td>
+                <td className="py-4 px-6 font-light">30 days or more prior to check-in</td>
+                <td className="py-4 px-6 text-center font-medium text-pine-charcoal">100% (Full Refund)</td>
               </tr>
               <tr className="hover:bg-pine-mist/20 transition-colors">
-                <td className="py-4 px-6 font-light">20–29 days</td>
-                <td className="py-4 px-6 text-center font-medium text-pine-charcoal">75%</td>
+                <td className="py-4 px-6 font-light">7 to 29 days prior to check-in</td>
+                <td className="py-4 px-6 text-center font-medium text-pine-charcoal">50% Refund</td>
               </tr>
               <tr className="hover:bg-pine-mist/20 transition-colors">
-                <td className="py-4 px-6 font-light">7–19 days</td>
-                <td className="py-4 px-6 text-center font-medium text-pine-charcoal">50%</td>
-              </tr>
-              <tr className="hover:bg-pine-mist/20 transition-colors">
-                <td className="py-4 px-6 font-light">2–6 days</td>
-                <td className="py-4 px-6 text-center font-medium text-rose-500">No refund</td>
+                <td className="py-4 px-6 font-light">Within 6 days of check-in</td>
+                <td className="py-4 px-6 text-center font-medium text-rose-500">No Refund</td>
               </tr>
             </tbody>
           </table>
