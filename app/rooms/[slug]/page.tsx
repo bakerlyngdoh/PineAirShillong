@@ -15,6 +15,8 @@ import {
   Waves
 } from "lucide-react";
 
+import { RoomImageSlider } from "@/components/ui/RoomImageSlider";
+
 interface PageProps {
   params: Promise<{ slug: string }>;
 }
@@ -56,13 +58,7 @@ export default async function RoomDetailsPage({ params }: PageProps) {
           {/* Left Column: Image & Amenities */}
           <div className="space-y-12">
             <div className="relative aspect-[4/3] rounded-2xl overflow-hidden shadow-2xl shadow-pine-primary/10">
-              <Image
-                src={room.image}
-                alt={room.name}
-                fill
-                className="object-cover"
-                priority
-              />
+              <RoomImageSlider images={room.images} alt={room.name} />
             </div>
 
             <div className="bg-white p-8 rounded-2xl border border-pine-primary/5 shadow-sm">

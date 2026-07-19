@@ -1,8 +1,8 @@
 import React from "react";
 import Link from "next/link";
-import Image from "next/image";
 import { ArrowRight } from "lucide-react";
 import { rooms } from "@/app/data/rooms";
+import { RoomImageSlider } from "@/components/ui/RoomImageSlider";
 
 export const Rooms: React.FC = () => {
   return (
@@ -23,13 +23,8 @@ export const Rooms: React.FC = () => {
               className="group cursor-pointer bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300"
             >
               <div className="relative aspect-[4/3] overflow-hidden">
-                <Image
-                  src={room.image}
-                  alt={room.name}
-                  fill
-                  className="object-cover transition-transform duration-700 group-hover:scale-105"
-                />
-                <div className="absolute top-4 right-4 bg-white/90 backdrop-blur-sm px-4 py-2 rounded-full shadow-sm">
+                <RoomImageSlider images={room.images} alt={room.name} />
+                <div className="absolute top-4 right-4 bg-white/90 backdrop-blur-sm px-4 py-2 rounded-full shadow-sm z-20">
                   <span className="text-pine-accent font-serif tracking-wide">{room.price}</span>
                 </div>
               </div>
