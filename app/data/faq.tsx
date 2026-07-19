@@ -82,10 +82,11 @@ export const faqs = [
     answer: (
       <div className="space-y-4">
         <h4 className="font-serif text-xl flex items-center gap-2 text-pine-charcoal">Laundry Service</h4>
-        <p>We offer a convenient <strong className="text-pine-charcoal font-medium">wash, dry, and fold</strong> laundry service.</p>
+        <p>We offer a convenient <strong className="text-pine-charcoal font-medium">wash and dry</strong> laundry service.</p>
         <ul className="list-disc pl-5 space-y-1">
           <li><strong className="text-pine-charcoal font-medium">Price:</strong> ₹200 per load</li>
           <li><strong className="text-pine-charcoal font-medium">Load Size:</strong> 5–8 clothing items per load</li>
+          <li><strong className="text-pine-charcoal font-medium">Clothes Collection:</strong> Guests are requested to collect their own clothes from the hangers on the terrace.</li>
         </ul>
       </div>
     )
