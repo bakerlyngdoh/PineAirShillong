@@ -5,17 +5,22 @@ const partners = [
   {
     name: "Explore Meghalaya",
     logo: "/images/partners/explore-meghalaya.jpeg",
-    url: "#", // Add the actual link here (e.g., "https://exploremeghalaya.com")
+    url: "https://exploremeghalaya.com/",
   },
   {
     name: "Spring Valley",
     logo: "/images/partners/spring-valley.jpeg",
-    url: "#", // Add the actual link here
+    url: "https://springvalleyfarm.co.in",
   },
   {
     name: "Tris Logo",
     logo: "/images/partners/tris-logo.png",
-    url: "#", // Add the actual link here
+    url: "https://www.trismeghalaya.com/",
+  },
+  {
+    name: "Trilhos Da Terra",
+    logo: "/images/partners/trilhos.jpeg",
+    url: "https://trilhosdaterra.com/",
   }
 ];
 
@@ -32,7 +37,7 @@ export const Partners: React.FC = () => {
 
         <div className="flex flex-wrap justify-center items-center gap-8 md:gap-16">
           {partners.map((partner, index) => (
-            <a 
+            <a
               key={index}
               href={partner.url}
               target="_blank"
