@@ -90,7 +90,7 @@ export const rooms: Room[] = [
     shortDescription: "Ideal for families or groups seeking a comfortable, shared space.",
     fullDescription: "One Multi-Bedded Room at ₹3,200/night for up to 4 people, inclusive of Breakfast. Features 4 single beds and an attached bathroom with geyser.",
     image: "/images/rooms/multi-bedded-room/dorm-1.jpeg",
-    images: ["/images/rooms/multi-bedded-room/dorm-1.jpeg"],
+    images: ["/images/rooms/multi-bedded-room/dorm-1.jpeg", "/images/rooms/multi-bedded-room/bathroom-bunk-beds-dorm.PNG", "/images/rooms/multi-bedded-room/dorm-with-bunk-beds.PNG"],
     amenities: ["4 Single Beds", "Attached Bathroom", "Geyser", "Breakfast Included"],
     details: {
       breakfast: "We offer breakfast from 7:30 to 9:00 am as complimentary with your room charge. Options include Continental, Puri Bhaaji, or Alu Paratha. (Continental includes – Bread/Toast/Pancakes with butter & jam, Cornflake/Oats, Eggs, tea).",
