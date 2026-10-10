@@ -103,7 +103,7 @@ export const rooms: Room[] = [
   },
   {
     slug: "dorm-room-bunk-beds",
-    name: "Dorm Room (Bunk Beds)",
+    name: "Bunk Bedded Dorm Room",
     price: "₹ 800/bed",
     occupancy: "1 guest (per bed)",
     shortDescription: "A cozy and budget-friendly shared dormitory featuring sturdy bunk beds and an attached bathroom.",
