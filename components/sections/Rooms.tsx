@@ -11,7 +11,7 @@ export const Rooms: React.FC = () => {
         <div className="text-center mb-20">
           <h2 className="font-serif text-4xl md:text-5xl text-pine-charcoal mb-6">Our Rooms</h2>
           <p className="text-pine-gray max-w-2xl mx-auto font-light leading-relaxed">
-            We offer 4 distinct room types, each thoughtfully designed to provide a restful sanctuary during your stay in the Khasi Hills.
+            We offer {rooms.length} distinct room types, each thoughtfully designed to provide a restful sanctuary during your stay in the Khasi Hills.
           </p>
         </div>
 

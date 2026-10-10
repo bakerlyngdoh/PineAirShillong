@@ -100,5 +100,30 @@ export const rooms: Room[] = [
         "For an extra mattress, ₹300 will be charged."
       ]
     }
+  },
+  {
+    slug: "dorm-room-bunk-beds",
+    name: "Dorm Room (Bunk Beds)",
+    price: "₹ 800/bed",
+    occupancy: "1 guest (per bed)",
+    shortDescription: "A cozy and budget-friendly shared dormitory featuring sturdy bunk beds and an attached bathroom.",
+    fullDescription: "Shared Dormitory with sturdy bunk beds at ₹800/bed/night, inclusive of complimentary breakfast. Features comfortable bedding, attached bathroom with geyser for hot water, personal charging points, and a serene ambiance perfect for solo travelers, backpackers, and groups.",
+    image: "/images/rooms/dorm/dorm_with_bunk_beds.PNG",
+    images: [
+      "/images/rooms/dorm/dorm_with_bunk_beds.PNG",
+      "/images/rooms/dorm/bathroom_of_bunk_beds_dorm.PNG"
+    ],
+    amenities: ["Bunk Beds", "Attached Bathroom", "Geyser", "Breakfast Included", "Wi-Fi"],
+    details: {
+      breakfast: "We offer breakfast from 7:30 to 9:00 am as complimentary with your bed charge. Options include Continental, Puri Bhaaji, or Alu Paratha. (Continental includes – Bread/Toast/Pancakes with butter & jam, Cornflake/Oats, Eggs, tea).",
+      meals: "Order at least 4 hours in advance. We serve simple home cooked food. Non-veg: ₹350/person, Veg: ₹250/person.",
+      cleaning: "If you need your room to be cleaned please inform the housekeeping assistant before you leave the room.",
+      laundry: "We charge ₹200/load (No of clothes per load should be 5-8). Our housekeeping attendant will machine wash the clothes. Then she will hang them to dry on the terrace. It is the responsibility of the guest to collect the clothes from the hanger (on the terrace).",
+      extraCharges: [
+        "Rate is ₹800 per bed per night, including complimentary breakfast.",
+        "Quiet hours are observed from 10:00 PM for the comfort of all dormitory guests."
+      ]
+    }
   }
 ];
+

@@ -12,10 +12,17 @@ import {
   Clock,
   ShieldCheck,
   Info,
-  Waves
+  Waves,
+  Bed
 } from "lucide-react";
 
 import { RoomImageSlider } from "@/components/ui/RoomImageSlider";
+
+export async function generateStaticParams() {
+  return rooms.map((room) => ({
+    slug: room.slug,
+  }));
+}
 
 interface PageProps {
   params: Promise<{ slug: string }>;
@@ -84,6 +91,12 @@ export default async function RoomDetailsPage({ params }: PageProps) {
                   <div className="flex items-center space-x-3 text-pine-gray">
                     <Baby className="text-pine-accent" size={20} />
                     <span className="text-sm font-light">Family Friendly</span>
+                  </div>
+                )}
+                {room.slug === "dorm-room-bunk-beds" && (
+                  <div className="flex items-center space-x-3 text-pine-gray">
+                    <Bed className="text-pine-accent" size={20} />
+                    <span className="text-sm font-light">Bunk Bed Setup</span>
                   </div>
                 )}
                 <div className="flex items-center space-x-3 text-pine-gray">
